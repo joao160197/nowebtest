@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+.container-about {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/pessoal-8849f.appspot.com/o/noweb%2FGroup%2061.jpg?alt=media&token=87144923-7469-4a0a-8720-dcb701e45a7e");
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  text-align: left;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  margin-left: 20px; 
+}
+
+.SeeMore {
+  color: white;
+  margin-right: 20px;
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: default;
+}
+
+.title-about {
+  font-size: 35px; 
+  color: #ffffff;
+}
+
+.transition-scroll {
+  transition: transform 0.5s ease-in-out;
+}
+
+.Paragrafo {
+  font-size: 16px; 
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 667px) {
+  .container-about {
+    align-items: flex-start; 
+  }
+
+  .content {
+    margin: 20px auto;
+    margin-left: 20px;
+  }
+
+  .SeeMore {
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .title-about {
+    font-size: 24px;
+  }
+
+  .Paragrafo {
+    font-size: 14px;
+  }
+
+ 
+.container-about {
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: flex-end;
+    background: #202332;
+  }
+}

@@ -1,0 +1,28 @@
+.televendas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/pessoal-8849f.appspot.com/o/noweb%2FBox%20de%20d%C3%BAvida.png?alt=media&token=b597dd8d-148e-4798-860a-289c094d4bbe"); /* Adjust the path to your image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .center-button {
+    margin-top: 80px;
+    margin-lefth: 20px;
+    margin-left: 280px;
+}
+
+
+
+@media (max-width: 660px) {
+  .center-button {
+    margin-top: 80px;
+    margin-lefth: 20px;
+    margin-left: 20px;
+  }
+}
+
+
